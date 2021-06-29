@@ -1,0 +1,24 @@
+/*
+.secondary .main-navigation ul > li {
+	
+	&.current_page_parent,
+	&.current_page_item,
+	&.current-menu-item {
+		> a {
+			background: $brand-secondary;
+			color: #fff;
+		}	
+	}
+}
+
+.cd-primary-nav .main-navigation ul > li {
+	
+	&.current_page_parent,
+	&.current_page_item,
+	&.current-menu-item {
+		> a {
+			background: darken($brand-secondary, 10%);
+		}	
+	}
+}
+*/

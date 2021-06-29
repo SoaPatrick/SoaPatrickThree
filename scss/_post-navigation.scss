@@ -1,0 +1,50 @@
+.nav-wrapper {
+	background: $grey-very-light;
+    position: relative;
+    line-height: 0;
+	margin: $grid-gutter-width 0 0 0;    
+    
+    .pagination {
+	    margin: 0;
+	    
+		> li > a,
+		> li > span	{
+			border: 0;
+			color: $text-color;
+			background-color: transparent;
+		}		    
+	    
+		> li > a:hover, 
+		> li > span:hover, 
+		> li > a:focus, 
+		> li > span:focus,
+		> li.curent > a, 
+		> li.curent > span, 
+		> li.curent > a:hover, 
+		> li.curent > span:hover, 
+		> li.curent > a:focus, 
+		> li.curent > span:focus,
+		> li > .current {
+			color: #fff;
+			background-color: $brand-secondary;		
+		}		    
+  }
+}
+
+
+
+.nav-links {	
+	.btn-light-grey {
+		.fa-lg {
+			line-height: .7em;
+		}
+		
+		.meta-nav-prev .fa {
+			padding-right: 15px;
+		}
+		
+		.meta-nav-next .fa {
+			padding-left: 15px;
+		}		
+	}
+}
