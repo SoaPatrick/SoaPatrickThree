@@ -1,4 +1,4 @@
-soapatrickthree
+SoaPatrickThree
 ===============
 
 A theme for my personal website. This theme was released on **January 24th 2017**. Development stopped on **November 1st 2017** and isn't maintained since then. 
